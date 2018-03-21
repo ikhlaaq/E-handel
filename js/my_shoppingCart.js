@@ -13,7 +13,7 @@ var my_shoppingCart = {};
 // 8.totalCart : function
 // 9.listCart :  function
 
-//********************************
+//*******************************
 
 
 // 1.cart : array (var) 
