@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>E-handel</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="e-handel, online-shopping, cool-stuff.">
+    <meta name="description" content="cool stuff to buy online.">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116229335-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-116229335-1');
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Touch & Ↄlick Shopping</h1>
+    </header>
+    <P>Click on items to add to the cart</P>
+    <div>
+        <ul id="cart">
+            <li>
+                <a class="add-to-cart" href="#" data-name="Camera" data-price="100">Camera 100 SEK</a>
+            </li>
+            <li>
+                <a class="add-to-cart" href="#" data-name="Tablet" data-price="200">Tablet 200 SEK</a>
+            </li>
+            <li>
+                <a class="add-to-cart" href="#" data-name="Sofa" data-price="500">Sofa 500 SEK</a>
+            </li>
+            <li>
+                <a class="add-to-cart" href="#" data-name="Table" data-price="300">Table 300 SEK</a>
+            </li>
+            <li>
+                <a class="add-to-cart" href="#" data-name="Chair" data-price="50">Chair 250 SEK</a>
+            </li>
+            <li>
+                <a class="add-to-cart" href="#" data-name="Football" data-price="150">Football 150 SEK</a>
+            </li>
+            <li>
+                <a class="add-to-cart" href="#" data-name="Iphone" data-price="5000">Iphone 5000 SEK</a>
+            </li>
+            <li>
+                <a class="add-to-cart" href="#" data-name="LG TV" data-price="3000">LG TV 3000 SEK</a>
+            </li>
+            <li>
+                <a class="add-to-cart" href="#" data-name="Jacket" data-price="600">Jacket 600 SEK</a>
+            </li>
+            <li>
+                <a class="add-to-cart" href="#" data-name="Shoe" data-price="350">Shoe 350 SEK</a>
+            </li>
+            <li>
+                <a class="add-to-cart" href="#" data-name="Chocolate" data-price="30">Chocolate 30 SEK</a>
+            </li>
+            <li>
+                <a class="add-to-cart" href="#" data-name="T-shirt" data-price="200">T-shirt 200 SEK</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div>
+        <ul id="show-cart">
+
+        </ul>
+        <section class="count">
+            <div>You have
+                <span id="count-cart">X</span> items in your cart.</div>
+            <div id="total">Total Cart:
+                <span id="total-cart"></span>SEK</div>
+    </div>
+    </section>
+    <div>
+        <button id="clear-cart">Clear Cart</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/my_shoppingCart.js"></script>
+</body>
+
+</html>
